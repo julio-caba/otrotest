@@ -28,7 +28,7 @@ h1,h2,h3,h4,.lead,.description, .btn,.navbar a {
 }
 
 .links a:hover, a:visited, a:link, a:active {
-  color: #999999;
+  /* color: #999999; */
   text-decoration: none;
 }
 
@@ -62,23 +62,9 @@ h1,h2,h3,h4,.lead,.description, .btn,.navbar a {
     font-size:1em;
   }
 
-  .cursor-help {
-    cursor:help;
-  }
-
   .header .description {
     color:white;
     font-size:2em;
-  }
-
-  .carrera {
-    font-size:2em;
-
-  }
-
-  .subcarrera {
-    font-size:1em;
-
   }
 }
 
@@ -224,21 +210,8 @@ img.grayscale {
 }
 
 .header .btn-lg:hover {
-   background-color:white;
+   background-color:#eeeeee;
    color:#777777;
-}
-
-.header .btn-md {
-  font-size:18px;
-  border-color:#eeeeee;
-  padding:10px;
-  background-color:transparent;
-  color:#ffffff;
-}
-
-.header .btn-md:hover {
-  background-color:white;
-  color:#777777;
 }
 
 .navbar a {
@@ -262,7 +235,7 @@ img.grayscale {
 
 .header {
   height: 100%;
-  background: #f68076 url('/assets/bg-min-resized.jpg') no-repeat center center fixed;
+  background: #f68076 url('/assets/bg-min.jpg') no-repeat center center fixed;
   background-size: cover;
 }
 
