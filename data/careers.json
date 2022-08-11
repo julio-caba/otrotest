@@ -1,7 +1,7 @@
 {
   "careers":[
     {
-      "name":"No hemos encontrado una carrera",
+      "name":"No hemos encontrado una carrera ideal para vos",
       "code":"0"
     },
     {
@@ -41,6 +41,10 @@
       "code":"SAE"
     },
     {
+      "name":"Marketing",
+      "code":"ERI"
+    },
+    {
       "name":"Ingeniería Civil",
       "code":"IRE"
     },
@@ -53,16 +57,36 @@
       "code":"IRE"
     },
     {
+      "name":"Ingeniería Industrial",
+      "code":"RIA"
+    },
+    {
+      "name":"Otros",
+      "code":"RAE"
+    },
+    {
       "name":"Ingeniería en Sistemas",
       "code":"IRC"
     },
     {
-      "name":"Mercadeo",
+      "name":"Marketing",
       "code":"ASE"
+    },
+    {
+      "name":"Ingeniería Electromecanica",
+      "code":"RCS"
     },
     {
       "name":"Medicina",
       "code":"IRS"
+    },
+    {
+      "name":"Profesorado en artes visuales",
+      "code":"ASR"
+    },
+    {
+      "name":"Ingeniería industrial",
+      "code":"RIC"
     },
     {
       "name":"Odontología",
@@ -71,6 +95,10 @@
     {
       "name":"Psicología Clínica",
       "code":"SIA"
+    },
+    {
+      "name":"Abogacia",
+      "code":"CRS"
     },
     {
       "name":"Psicología Organizacional",
