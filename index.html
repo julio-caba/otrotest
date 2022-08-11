@@ -12,8 +12,7 @@
     <link href="vendor/fa/css/font-awesome.min.css" rel="stylesheet">
     <link href="vendor/angular-chart/angular-chart.css" rel="stylesheet">
     <link href="vendor/angular-tooltip/angular-tooltips.min.css" rel="stylesheet">
-    <script src="vendor/angular-chart/Chart.min.js"></script>
-  
+    <script src="vendor/angular-chart/Chart.min.js"></script> 
     <link href="css/styles.css" rel="stylesheet">
 </head>
 <body>
@@ -27,7 +26,7 @@
         <p class="lead">Toma el test de Holland y conoce tu carrera</p>
 
         <div>&nbsp;</div>
-        <a href="#test" class="btn btn-default btn-lg">Empieza</a>
+        <a href="#test" class="btn btn-default btn-lg">Empecemos</a>
     </div>
 </div>
 <div class="descriptions" id="descripcion">
@@ -166,7 +165,7 @@
     <div class="container space text-center">
         <div clas="row">
             <button type="button" class="btn btn-default" ng-click="restartEverything()">Restablecer</button>
-            <a href="#" class="btn btn-default" ng-hide="endOfQuestions == true" title="Scroll to top">Inicio</a>
+            <a href="/home" class="btn btn-default" >Inicio</a>
             <!-- <button type="button" class="btn btn-default" ng-click="" ng-hide="endOfQuestions == true">Inicio</button> -->
             <button type="button" class="btn btn-default" ng-click="printDiv('printable')" ng-show="endOfQuestions == true">Imprimir</button>
 
@@ -197,7 +196,8 @@
 
 <!-- script references -->
 <script src="vendor/jquery/jquery-2.1.4.min.js"></script>
-<script src="vendor/angular/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+<!-- <script src="vendor/angular/angular.min.js"></script> -->
 <script src="js/app.js"></script>
 <script src="js/filters/filter_evaluation.js"></script>
 <script src="js/bootstrap.min.js"></script>
