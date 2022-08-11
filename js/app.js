@@ -44,7 +44,7 @@ angular.module('testVApp')
         /**
          * Method GET to retrieve the 'questions' from the Json
          */
-        $http.get("/data/questions.json").then(function (res) {
+        $http.get("../data/questions.json").then(function (res) {
             console.info(res);
             $scope.sections = res.data.sections;
             console.info($scope.sections);
@@ -53,7 +53,7 @@ angular.module('testVApp')
         /**
          * Method GET to retrieve the 'careers without order' from the Json
          */
-        $http.get("/data/codigoscarreras.json").then(function (res) {
+        $http.get("../data/codigoscarreras.json").then(function (res) {
             console.info(res);
             $scope.careersNoOrders = res.data.careers;
             console.info($scope.careersNoOrders);
@@ -62,7 +62,7 @@ angular.module('testVApp')
         /**
          * Method GET to retrieve the 'careers for specific order' from the Json
          */
-        $http.get("/data/careers.json").then(function (res) {
+        $http.get("../data/careers.json").then(function (res) {
             console.info(res);
             $scope.careers = res.data.careers;
             console.info($scope.careers);
@@ -71,7 +71,7 @@ angular.module('testVApp')
         /**
          * Method GET to retrieve the 'personalities' from the Json
          */
-        $http.get("/data/personalities.json").then(function (res) {
+        $http.get("../data/personalities.json").then(function (res) {
             console.info(res);
             $scope.personalities = res.data.messages;
             console.info($scope.messages);
